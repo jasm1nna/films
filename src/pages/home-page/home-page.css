@@ -1,0 +1,11 @@
+.home-page {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+@media (max-width: 420px) {
+    .home-page {
+        background-image: url(../../fim-covers/background-phone.webp);
+    }
+}
